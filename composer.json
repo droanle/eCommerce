@@ -1,0 +1,22 @@
+{
+    "name": "leamar/e-commerce",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leandro de Meirelles",
+            "email": "meirellesoffice@gmail.com"
+        },
+        {
+            "name": "Marcelo Gonçalves",
+            "email": "marcelo.goncalves9@fatec.sp.gov.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "System\\Model\\": "src/Model",
+            "System\\View\\": "src/View",
+            "System\\Controller\\": "src/Controller"
+        }
+    }
+}
