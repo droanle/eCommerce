@@ -1,4 +1,21 @@
 RewriteEngine on
 
+# Arquivos de acesso publico
+RewriteRule ^css/(.*)    ./src/View/css/$1
+RewriteRule ^fonts/(.*)  ./src/View/fonts/$1
+RewriteRule ^img/(.*)    ./src/View/img/$1
+RewriteRule ^js/(.*)     ./src/View/js/$1
+RewriteRule ^sass/(.*)   ./src/View/sass/$1
+RewriteRule ^Source/(.*) ./src/View/Source/$1
+
+# Arquivos "Controller" mapeados com acesso publico
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ index.php [QSA,NC]
+RewriteRule ^controller/(.*) ./src/Controller/index.php [QSA,NC]
+
+# Arquivos "Model" mapeados com acesso publico
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^model/(.*) ./src/Model/index.php [QSA,NC]
+
+# Paginas do sistema
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ ./index.php [QSA,NC]

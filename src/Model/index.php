@@ -1,8 +1,8 @@
 <?php
 
-require './vendor/autoload.php';
+require '../../vendor/autoload.php';
 
-echo "Este é a Home";
+echo "Este é o Model";
 echo "<br>";
 echo $_SERVER['REQUEST_URI'];
 echo "<br>";
