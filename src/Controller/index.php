@@ -2,8 +2,13 @@
 
 require '../../vendor/autoload.php';
 
-echo "Este é o Controller";
-echo "<br>";
-echo $_SERVER['REQUEST_URI'];
-echo "<br>";
-print_r($_GET);
+use System\Config\Request;
+
+
+$app = new Request(); 
+
+// $app::route('GET', 'controller/', function ($req, $res){
+//     include "../src/Controller/*";
+// });
+
+include "./src/View/page404.php";

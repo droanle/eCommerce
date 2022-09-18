@@ -2,8 +2,14 @@
 
 require '../../vendor/autoload.php';
 
-echo "Este é o Model";
-echo "<br>";
-echo $_SERVER['REQUEST_URI'];
-echo "<br>";
-print_r($_GET);
+
+use System\Config\Request;
+
+
+$app = new Request(); 
+
+// $app::route('GET', 'model/', function ($req, $res){
+//     include "../src/Model/*";
+// });
+
+include "./src/View/page404.php";

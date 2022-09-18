@@ -2,8 +2,19 @@
 
 require './vendor/autoload.php';
 
-echo "Este é a Home";
-echo "<br>";
-echo $_SERVER['REQUEST_URI'];
-echo "<br>";
-print_r($_GET);
+use System\Config\Request;
+
+
+$app = new Request(); 
+
+$app::route('GET', '/', function ($req, $res){
+    include "./src/View/home.php";
+});
+
+$app::route('GET', '/home', function ($req, $res, $target){
+    include $target;
+}, "./src/View/");
+
+$app::anyRoute('GET', function ($req, $target){ include $target; }, "./src/View/");
+
+include "./src/View/page404.php";

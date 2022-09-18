@@ -13,7 +13,9 @@
     ],
     "require": {},
     "autoload": {
+        "files": ["./systemConfig.php"],
         "psr-4": {
+            "System\\Config\\": "src/Config",
             "System\\Model\\": "src/Model",
             "System\\View\\": "src/View",
             "System\\Controller\\": "src/Controller"

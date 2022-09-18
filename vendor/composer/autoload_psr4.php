@@ -9,4 +9,5 @@ return array(
     'System\\View\\' => array($baseDir . '/src/View'),
     'System\\Model\\' => array($baseDir . '/src/Model'),
     'System\\Controller\\' => array($baseDir . '/src/Controller'),
+    'System\\Config\\' => array($baseDir . '/src/Config'),
 );
