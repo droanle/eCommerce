@@ -15,6 +15,10 @@ $app::route('GET', '/home', function ($req, $res, $target){
     include $target;
 }, "./src/View/");
 
+$app::route('GET', '/login', function ($req, $res, $target){
+    include $target;
+}, "./src/View/");
+
 $app::anyRoute('GET', function ($req, $target){ include $target; }, "./src/View/");
 
 include "./src/View/page404.php";

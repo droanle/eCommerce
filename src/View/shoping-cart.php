@@ -13,14 +13,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="<?php echo SYSTEM_URL; ?>/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo SYSTEM_URL; ?>/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo SYSTEM_URL; ?>/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo SYSTEM_URL; ?>/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo SYSTEM_URL; ?>/css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo SYSTEM_URL; ?>/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo SYSTEM_URL; ?>/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo SYSTEM_URL; ?>/css/style.css" type="text/css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="public/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="public/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="public/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="public/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="public/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="public/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="public/css/style.css" type="text/css">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="#"><img src="<?php echo SYSTEM_URL; ?>/img/logo.png" alt=""></a>
+            <a href="#"><img src="public/img/logo.png" alt=""></a>
         </div>
         <div class="humberger__menu__cart">
             <ul>
@@ -44,7 +44,7 @@
         </div>
         <div class="humberger__menu__widget">
             <div class="header__top__right__language">
-                <img src="<?php echo SYSTEM_URL; ?>/img/language.png" alt="">
+                <img src="public/img/language.png" alt="">
                 <div>English</div>
                 <span class="arrow_carrot-down"></span>
                 <ul>
@@ -110,7 +110,7 @@
                                 <a href="#"><i class="fa fa-pinterest-p"></i></a>
                             </div>
                             <div class="header__top__right__language">
-                                <img src="<?php echo SYSTEM_URL; ?>/img/language.png" alt="">
+                                <img src="public/img/language.png" alt="">
                                 <div>English</div>
                                 <span class="arrow_carrot-down"></span>
                                 <ul>
@@ -130,7 +130,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="<?php echo SYSTEM_URL; ?>"><img src="<?php echo SYSTEM_URL; ?>/img/logo.png" alt=""></a>
+                        <a href="<?php echo SYSTEM_URL; ?>"><img src="public/img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -222,7 +222,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="<?php echo SYSTEM_URL; ?>/img/breadcrumb.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="public/img/breadcrumb.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -258,7 +258,7 @@
                             <tbody>
                                 <tr>
                                     <td class="shoping__cart__item">
-                                        <img src="<?php echo SYSTEM_URL; ?>/img/cart/cart-1.jpg" alt="">
+                                        <img src="public/img/cart/cart-1.jpg" alt="">
                                         <h5>Vegetable’s Package</h5>
                                     </td>
                                     <td class="shoping__cart__price">
@@ -280,7 +280,7 @@
                                 </tr>
                                 <tr>
                                     <td class="shoping__cart__item">
-                                        <img src="<?php echo SYSTEM_URL; ?>/img/cart/cart-2.jpg" alt="">
+                                        <img src="public/img/cart/cart-2.jpg" alt="">
                                         <h5>Fresh Garden Vegetable</h5>
                                     </td>
                                     <td class="shoping__cart__price">
@@ -302,7 +302,7 @@
                                 </tr>
                                 <tr>
                                     <td class="shoping__cart__item">
-                                        <img src="<?php echo SYSTEM_URL; ?>/img/cart/cart-3.jpg" alt="">
+                                        <img src="public/img/cart/cart-3.jpg" alt="">
                                         <h5>Organic Bananas</h5>
                                     </td>
                                     <td class="shoping__cart__price">
@@ -368,7 +368,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="<?php echo SYSTEM_URL; ?>"><img src="<?php echo SYSTEM_URL; ?>/img/logo.png" alt=""></a>
+                            <a href="<?php echo SYSTEM_URL; ?>"><img src="public/img/logo.png" alt=""></a>
                         </div>
                         <ul>
                             <li>Address: 60-49 Road 11378 New York</li>
@@ -421,7 +421,7 @@
                         <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                        <div class="footer__copyright__payment"><img src="<?php echo SYSTEM_URL; ?>/img/payment-item.png" alt=""></div>
+                        <div class="footer__copyright__payment"><img src="public/img/payment-item.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -430,14 +430,14 @@
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
-    <script src="<?php echo SYSTEM_URL; ?>/js/jquery-3.3.1.min.js"></script>
-    <script src="<?php echo SYSTEM_URL; ?>/js/bootstrap.min.js"></script>
-    <script src="<?php echo SYSTEM_URL; ?>/js/jquery.nice-select.min.js"></script>
-    <script src="<?php echo SYSTEM_URL; ?>/js/jquery-ui.min.js"></script>
-    <script src="<?php echo SYSTEM_URL; ?>/js/jquery.slicknav.js"></script>
-    <script src="<?php echo SYSTEM_URL; ?>/js/mixitup.min.js"></script>
-    <script src="<?php echo SYSTEM_URL; ?>/js/owl.carousel.min.js"></script>
-    <script src="<?php echo SYSTEM_URL; ?>/js/main.js"></script>
+    <script src="public/js/jquery-3.3.1.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/jquery.nice-select.min.js"></script>
+    <script src="public/js/jquery-ui.min.js"></script>
+    <script src="public/js/jquery.slicknav.js"></script>
+    <script src="public/js/mixitup.min.js"></script>
+    <script src="public/js/owl.carousel.min.js"></script>
+    <script src="public/js/main.js"></script>
 
 
 </body>

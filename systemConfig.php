@@ -13,6 +13,9 @@ else
 $url .= $_SERVER['HTTP_HOST'];
 
 if (file_exists("./localConfig.php")) include "./localConfig.php";
+else if (file_exists("../localConfig.php")) include "../../localConfig.php";
+else if (file_exists("../../localConfig.php")) include "../../localConfig.php";
+else if (file_exists("../../../localConfig.php")) include "../../../localConfig.php";
 else {
     $url = "https://";
     $url .= $_SERVER['HTTP_HOST'];
